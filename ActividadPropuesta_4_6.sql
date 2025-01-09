@@ -43,6 +43,7 @@ ALTER TABLE LINEAVENTA ADD CONSTRAINT ck_cantidad CHECK (TipoDev BETWEEN 1 AND 2
 ALTER TABLE Devolucion ADD CONSTRAINT ck_estado CHECK (Estado IN ('B', 'M', 'F'));
 ALTER TABLE Devolucion ADD CONSTRAINT ck_tipodev CHECK (TipoDev BETWEEN 1 AND 5); --! (TipoDev (1-5))
 
+
 --! i) 
 ALTER TABLE Precio MODIFY Descuento NUMBER (6,2);
 ALTER TABLE Precio ADD CONSTRAINT ck_precio CHECK (Precio BETWEEN 0.01 AND 9999.99); --! Number (6)

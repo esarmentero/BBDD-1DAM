@@ -12,3 +12,19 @@ Ejercicio4.11-JuanFran
 Ejercicio4.12-Pablo
 Ejercicio4.13-Roberto
 
+
+Ejercicio5.1-Roberto
+Ejercicio5.2-Santiago
+Ejercicio5.3-Diego Miguel
+Ejercicio5.4-Hector
+Ejercicio5.5-David
+Ejercicio5.6-Guillermo
+Ejercicio5.7-JuanFran - consultas sobre una tabla
+Ejercicio5.8-Diego de Alba - consultas multitabla
+Ejercicio5.9-Alfonso - composición externa y consultas resumen
+Ejercicio5.10-Pablo - composición externa y consultas resumen
+Ejercicio5.11-Angel - Subconsultas (WHERE)
+Ejercicio5.12-Alvaro - Subconsultas (ALL y ANY)
+Ejercicio5.13-Jess - Resto de apartados
+
+

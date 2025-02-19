@@ -1,0 +1,7 @@
+#!bin/bash/
+read -p "Introduce el nombre del archivo: " ARCHIVO
+read -p "Introduce la ruta: " RUTA
+cp "$ARCHIVO "$RUTA" # Comillas: cogen el valor literal de la variable
+if [ -f $ARCHIVO ] then;
+echo "El archivo ha sido copiado correctamente"
+fi

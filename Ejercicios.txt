@@ -28,3 +28,28 @@ Ejercicio5.12-Alvaro - Subconsultas (ALL y ANY)
 Ejercicio5.13-Jess - Resto de apartados
 
 
+Ejercicio6.1-Guillermo
+Ejercicio6.2-Angel
+Ejercicio6.3-Diego de Alba
+Ejercicio6.4-Alfonso
+Ejercicio6.5-Pablo
+Ejercicio6.6-Héctor
+Ejercicio6.7-David
+Ejercicio6.8-Álvaro
+Ejercicio6.9-Jess
+Ejercicio6.10-Diego Miguel
+Ejercicio6.11-JuanFran
+Ejercicio6.12-Guillermo
+Ejercicio6.13-Angel
+Ejercicio6.14-Diego de Alba
+Ejercicio6.15-Alfonso
+Ejercicio6.16-Pablo
+Ejercicio6.17-Héctor
+Ejercicio6.18-David
+Ejercicio6.19-Álvaro
+Ejercicio6.20-Jess
+Ejercicio6.21-Diego Miguel
+Ejercicio6.22-JuanFran
+Ejercicio6.23-Guillermo
+Ejercicio6.24-Angel
+Ejercicio6.25-Diego de Alba

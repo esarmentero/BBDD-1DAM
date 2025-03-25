@@ -1,0 +1,63 @@
+--Manera A
+SET SERVEROUTPUT ON;
+
+DECLARE
+
+    V_CANTIDAD NUMBER := 0;
+    V_CONTADOR NUMBER := 1;
+
+BEGIN
+
+    LOOP
+        IF(MOD(V_CONTADOR,3)=0) THEN
+            V_CANTIDAD:=V_CANTIDAD+1;
+        END IF;
+        V_CONTADOR := V_CONTADOR+1;
+        EXIT WHEN V_CONTADOR=100;
+    END LOOP;
+    
+    DBMS_OUTPUT.PUT_LINE('Cantidad de múltiplos de 3 del 1 al 100: '||V_CANTIDAD);
+    
+END;
+
+--Manera B
+SET SERVEROUTPUT ON;
+
+DECLARE
+
+    V_CANTIDAD NUMBER := 0;
+    V_CONTADOR NUMBER := 1;
+
+BEGIN
+
+    WHILE V_CONTADOR<100 LOOP
+        IF(MOD(V_CONTADOR,3)=0) THEN
+            V_CANTIDAD:=V_CANTIDAD+1;
+        END IF;
+        V_CONTADOR := V_CONTADOR+1;
+        EXIT WHEN V_CONTADOR=100;
+    END LOOP;
+    
+    DBMS_OUTPUT.PUT_LINE('Cantidad de múltiplos de 3 del 1 al 100: '||V_CANTIDAD);
+    
+END;
+
+--Manera C
+SET SERVEROUTPUT ON;
+
+DECLARE
+
+    V_CANTIDAD NUMBER := 0;
+    V_CONTADOR NUMBER;
+
+BEGIN
+
+    FOR V_CONTADOR IN 1.. 100 LOOP
+        IF(MOD(V_CONTADOR,3)=0) THEN
+            V_CANTIDAD:=V_CANTIDAD+1;
+        END IF;
+    END LOOP;
+    
+    DBMS_OUTPUT.PUT_LINE('Cantidad de múltiplos de 3 del 1 al 100: '||V_CANTIDAD);
+    
+END;
